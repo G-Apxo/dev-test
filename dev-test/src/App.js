@@ -1,11 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import {Container} from './components/styles/Container.styled'
+import Header from './components/Header';
+import Footer from './components/Footer'
+import GlobalStyles from './components/styles/Global';
+import Card from './components/Card';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-    </div>
+    <>
+    <GlobalStyles/>
+    <Header/>
+    <Container>
+      <Card />
+    </Container>
+    <Footer/>
+    </>
   );
 }
 
