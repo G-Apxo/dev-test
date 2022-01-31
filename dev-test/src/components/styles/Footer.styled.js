@@ -7,7 +7,7 @@ export const FooterStyled = styled.footer`
     margin:0;
     display:flex;
     justify-content: center;
-    position:absolute;
+    position:fixed;
     bottom:0;
 
 
