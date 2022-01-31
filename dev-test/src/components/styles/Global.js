@@ -29,7 +29,12 @@ button:hover{
     height: 150px;
     object-fit: cover; 
   }
-  
+  .card-image-desc {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+  }
   .card-title {
     font-size: 28px;
     margin-top: 25px;
@@ -48,6 +53,20 @@ button:hover{
     margin-bottom: 30px;
     line-height: 1.2;
   }
+  .btn{
+    background: #f5f5f5;
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0b868b;
+    padding: 13px 81px;
+    bottom: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
 `
 
 export default GlobalStyles;
